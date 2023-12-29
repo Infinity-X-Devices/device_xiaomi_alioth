@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
     AliothFrameworks \
     AliothSystemUI
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Set Default Device name according to MIUI
 PRODUCT_PACKAGES += \
     SettingsProviderM2012K11AC \
