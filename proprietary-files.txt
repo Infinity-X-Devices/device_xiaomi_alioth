@@ -389,29 +389,31 @@ vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml
 vendor/etc/tunings.txt
 
 # Dolby Miui
-system/lib/vendor.dolby.hardware.dms@2.0.so
-system/lib64/vendor.dolby.hardware.dms@2.0.so
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
-vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
-vendor/lib/libdapparamstorage.so
-vendor/lib/libdeccfg.so
-vendor/lib/vendor.dolby.hardware.dms@2.0.so
-vendor/lib64/libdapparamstorage.so
-vendor/lib64/libdeccfg.so
-vendor/lib64/libdlbdsservice.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|ff827406bbcd1c82e790730bb017b7af38850004
+vendor/etc/dolby/dax-default.xml|d28bc00c53fc1bfb53a5f02e7ddfad4697ba697c
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/etc/media_codecs_dolby_audio.xml|a794eb15fc198d0285510260025cd99b53fa174f
+vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
+vendor/lib/libdapparamstorage.so|d1952f09354f414238e5bd0f57dd0d3f85b8f769
+vendor/lib/libdeccfg.so|c9ea6a462e3a0d00e31223bf2a9c5dd84beff122
+vendor/lib/libstagefright_soft_ac4dec.so|81400862e01f07d48ee99cefa385e84067ecedc0
+vendor/lib/libstagefright_soft_ddpdec.so|ead5f3168180c52f9d29654402081152c23448d6
+vendor/lib/libstagefright_soft_qtiflacdec.so|4e8d9ecb64fd90c95cd9700308e5aec6a952a38c
+vendor/lib/soundfx/libhwdap.so|4832a5e6e67831980f7d1c68727335567fe9dc53
+vendor/lib/soundfx/libswgamedap.so|93101491221a06b02ab02b12288d00110645e48f
+vendor/lib/soundfx/libswvqe.so|4123ad118d98e3bc2573f0e972703789d2451637
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|2bf537bbf5c413527e5c648b8e63b95f904f7532
+vendor/lib64/libdapparamstorage.so|a8e3bb20ee8579a13d5beef17a0ad251055e9d7b
+vendor/lib64/libdlbdsservice.so|f3225b3ee8778f609effcb313ca64f32c7494f5e
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|e90be71a671e64662742b6ee36d7060ed9974726
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|2020b5fd9abac65520224069bbe75d5e76d3f158
 
-# Dolby SoundFX
-vendor/lib/soundfx/libhwdap.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib/soundfx/libswgamedap.so
-vendor/lib/soundfx/libswvqe.so
-vendor/lib64/soundfx/libhwdap.so
-vendor/lib64/soundfx/libswdap.so
-vendor/lib64/soundfx/libswgamedap.so
-vendor/lib64/soundfx/libswvqe.so
+# Media (Dolby DAX Service & APP) - MOD
+system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|fce084b5ea52db53d25a7bbf64d8c7ce
+system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|cd1424d569038a393fccadb457c930c2
+system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|3d8dfe8008f667cf2b3572983c08c3af
+system_ext/priv-app/DaxUI/DaxUI.apk|e176f7b5663cf6292ac3cac61d7f1ce1
+system_ext/priv-app/daxService/daxService.apk|493c2c391a73facb9e0dc9e8ec921705
 
 # Dolby MediaCodecs
 system/lib/libdolbyottcontrol.so
