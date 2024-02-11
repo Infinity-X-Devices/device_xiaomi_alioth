@@ -426,12 +426,10 @@ system/lib/libdolbyottcontrol.so
 system/lib/libdovi_omx.so
 system/lib64/libdolbyottcontrol.so
 system/lib64/libdovi_omx.so
-vendor/lib/libstagefright_soft_ac4dec.so
-vendor/lib/libstagefright_soft_ddpdec.so
-vendor/lib/libstagefrightdolby.so
+vendor/lib/libstagefrightdolby.so|112aaae083412bebb5b6398155f0c0c358d45617
 vendor/lib64/libstagefright_soft_ac4dec.so
 vendor/lib64/libstagefright_soft_ddpdec.so
-vendor/lib64/libstagefrightdolby.so
+vendor/lib64/libstagefrightdolby.so|bab2ecfa384b5a59250cb887166a3185ea918f65
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
