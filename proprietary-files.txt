@@ -50,6 +50,7 @@ vendor/lib/rfsa/adsp/misound_res_spk.bin
 
 # Audio-Hardware
 vendor/lib/hw/audio.primary.kona.so
+vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
@@ -400,8 +401,13 @@ vendor/lib/libstagefright_soft_ac4dec.so|81400862e01f07d48ee99cefa385e84067ecedc
 vendor/lib/libstagefright_soft_ddpdec.so|ead5f3168180c52f9d29654402081152c23448d6
 vendor/lib/libstagefright_soft_qtiflacdec.so|4e8d9ecb64fd90c95cd9700308e5aec6a952a38c
 vendor/lib/soundfx/libhwdap.so|4832a5e6e67831980f7d1c68727335567fe9dc53
+vendor/lib/soundfx/libswdap.so|f98c6c627d4e9beb679850c4d69bf917d207c5a2
 vendor/lib/soundfx/libswgamedap.so|93101491221a06b02ab02b12288d00110645e48f
 vendor/lib/soundfx/libswvqe.so|4123ad118d98e3bc2573f0e972703789d2451637
+vendor/lib64/soundfx/libhwdap.so|647f4c387ae7e1b70cf856493dd2e8a3cb10af13
+vendor/lib64/soundfx/libswdap.so|7bb2d6b42c0917b842761cdd9bcbb58c18bbe599
+vendor/lib64/soundfx/libswgamedap.so|ce3c4efed44b3634b07669977a5a6e26a1ca23d8
+vendor/lib64/soundfx/libswvqe.so|5cf9fcc0a59af3474dfe18a4b10e1472defd11fc
 vendor/lib/vendor.dolby.hardware.dms@2.0.so|2bf537bbf5c413527e5c648b8e63b95f904f7532
 vendor/lib64/libdapparamstorage.so|a8e3bb20ee8579a13d5beef17a0ad251055e9d7b
 vendor/lib64/libdlbdsservice.so|f3225b3ee8778f609effcb313ca64f32c7494f5e
