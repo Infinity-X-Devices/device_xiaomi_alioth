@@ -45,12 +45,12 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_foundation-v33.so
 
 # Miuicamera
-$(call inherit-product-if-exists, vendor/xiaomi/camera/products/miuicamera.mk)
+$(call inherit-product, vendor/xiaomi/camera/miuicamera.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp
+    $(LOCAL_PATH)/overlay-infinity
 
 PRODUCT_PACKAGES += \
     AliothFrameworks \
@@ -76,6 +76,9 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# ViPER
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
