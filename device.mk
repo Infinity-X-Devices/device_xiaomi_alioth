@@ -11,7 +11,7 @@ TARGET_IS_VAB := true
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
 # Miuicamera
-$(call inherit-product, vendor/xiaomi/camera/miuicamera.mk)
+$(call inherit-product, vendor/xiaomi/alioth-camera/miuicamera.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-infinity
 
 PRODUCT_PACKAGES += \
     AliothFrameworks \

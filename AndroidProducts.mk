@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/flare_alioth.mk
+    $(LOCAL_DIR)/infinity_alioth.mk
