@@ -6,3 +6,6 @@ git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm8250-common -b 1
 git clone https://github.com/Infinity-X-Devices/vendor_xiaomi_alioth -b 15 vendor/xiaomi/alioth --depth=1
 git clone https://github.com/Infinity-X-Devices/vendor_xiaomi_sm8250-common -b 15 vendor/xiaomi/sm8250 --depth=1
 git clone https://github.com/Sanjis-Android-Playground/kernel_sm8250-16.1.0 -b 15 kernel/xiaomi/sm8250 --depth=1
+
+cd system/libhwbinder && git fetch https://github.com/custom-crdroid/system_libhwbinder/ && git cherry-pick d9d46e78cec0d09498fd5890eed9f7195baed0fd && croot
+cd frameworks/native && git fetch https://github.com/pierdolnikxd/framework_native/ 15 && git cherry-pick 3ba427ad50fb50143ce46f12602eddf67bb9143a && croot
